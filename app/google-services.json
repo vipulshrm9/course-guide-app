@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "788305206457",
+    "firebase_url": "https://course-guide-434fc.firebaseio.com",
+    "project_id": "course-guide-434fc",
+    "storage_bucket": "course-guide-434fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788305206457:android:9bb3950f8240c54a",
+        "android_client_info": {
+          "package_name": "com.example.android.courseguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788305206457-4pdhn2fqdk9m1vrii9dv9d5u7a7kp0qr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpWgutYFqHSqGo-Iz78d9clksGOvM7fhY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

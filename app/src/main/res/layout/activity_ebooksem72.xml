@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/four"
+    tools:context="com.example.android.courseguide.Ebooksem72Activity">
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="24dp"
+        android:text="Download"
+        android:onClick="onsub"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button14"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@+id/button14"
+        android:layout_toRightOf="@+id/button14"
+        android:text="Object Oriented Analysis              pdf-1" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button14"
+        android:layout_alignRight="@+id/button14"
+        android:layout_below="@+id/button14"
+        android:onClick="ondown"
+        android:layout_marginTop="48dp"
+        android:text="Download" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Object Oriented Analysis              pdf-2"
+        android:layout_alignTop="@+id/button15"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+</RelativeLayout>

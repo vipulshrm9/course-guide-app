@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.courseguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gbulogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:label="Login "/>
+        <activity android:name=".RegisterActivity"
+            android:label="Registration"/>
+        <activity android:name=".HomeActivity"
+            android:label="SOICT"/>
+        <activity android:name=".ComputerActivity"
+            android:label="CSE"/>
+        <activity android:name=".ElectronicsActivity" />
+        <activity android:name=".Video1Activity"
+            android:label="Videos"/>
+        <activity
+            android:name=".Home2Activity"
+            android:label="@string/title_activity_home2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EbookActivity"
+            android:label="E-BOOK"/>
+        <activity android:name=".PptActivity"
+            android:label="PRESENTATIONS"/>
+        <activity android:name=".ComputerFirstActivity" />
+        <activity android:name=".Video2Activity"
+            android:label="Videos"/>
+        <activity android:name=".Ebook1Activity"
+            android:label="E-BOOK"/>
+        <activity android:name=".Ppt1Activity"
+            android:label="PRESENTATIONS"/>
+        <activity android:name=".Videosem81Activity"
+            android:label="Videos"/>
+        <activity android:name=".Ebooksem81Activity"
+            android:label="E-BOOK"/>
+        <activity android:name=".Pptsem81Activity"
+            android:label="PRESENTATIONS"/>
+        <activity android:name=".ThirdYearActivity"
+            android:label="CSE"/>
+        <activity android:name=".Videosem82Activity"
+            android:label="Videos"/>
+        <activity android:name=".EbookSem82Activity"
+            android:label="E-BOOK"/>
+        <activity android:name=".Pptsem82Activity"
+            android:label="PRESENTATIONS"/>
+        <activity android:name=".Videosem83Activity"
+            android:label="Videos"/>
+        <activity android:name=".EbookSem83Activity"
+            android:label="E-BOOK"/>
+        <activity android:name=".Pptsem83Activity"
+            android:label="PRESENTATIONS"/>
+        <activity android:name=".Videosem84Activity"
+            android:label="Videos"/>
+        <activity android:name=".EbookSem84Activity"
+            android:label="E-BOOK"/>
+        <activity android:name=".Pptsem84Activity"
+            android:label="PRESENTATIONS"/>
+        <activity android:name=".Videosem71Activity"
+            android:label="Videos"/>
+        <activity android:name=".Ebooksem71Activity"
+            android:label="E-BOOK"/>
+        <activity android:name=".Pptsem71Activity"
+            android:label="PRESENTATIONS"/>
+        <activity android:name=".Videosem72Activity"
+            android:label="Videos"/>
+        <activity android:name=".Ebooksem72Activity"
+            android:label="E-BOOK"/>
+        <activity android:name=".Videosem73Activity"
+            android:label="Videos"/>
+        <activity android:name=".Ebooksem73Activity"
+            android:label="E-BOOK"/>
+        <activity android:name=".Pptsem72Activity"
+            android:label="PRESENTATIONS"/>
+        <activity android:name=".Ppt73Activity"
+            android:label="PRESENTATIONS"></activity>
+    </application>
+
+</manifest>
